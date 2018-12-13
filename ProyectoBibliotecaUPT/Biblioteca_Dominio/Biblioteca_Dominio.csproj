@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entidades\ClsPrestamo.cs" />
     <Compile Include="Entidades\ClsAutor.cs" />
     <Compile Include="Entidades\ClsCategoria.cs" />
     <Compile Include="Entidades\ClsEdicion.cs" />
@@ -52,7 +53,14 @@
     <Compile Include="Entidades\ClsEjemplar.cs" />
     <Compile Include="Entidades\ClsFavorito.cs" />
     <Compile Include="Entidades\ClsHistorial.cs" />
+    <Compile Include="Entidades\ClsLibro.cs" />
+    <Compile Include="Entidades\ClsPersona.cs" />
+    <Compile Include="Entidades\ClsRanking.cs" />
+    <Compile Include="Entidades\ClsReserva.cs" />
+    <Compile Include="Entidades\ClsTipoUsuario.cs" />
+    <Compile Include="Entidades\ClsUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositorio\Repositorio_Interfaces.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -72,8 +80,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Repositorio\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

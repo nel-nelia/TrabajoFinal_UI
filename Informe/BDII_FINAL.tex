@@ -229,6 +229,108 @@ SISTEMA BIBLIOTECA}
 \begin{itemize}
 	
 
+\item Requerimientos funcionales \par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Table No: 1 starts here %%%%%%%%%%%%%%%%%%%%
+
+
+\begin{table}[H]
+ 			\centering
+\begin{tabular}{p{1.2in}p{0.4in}p{1.0in}p{1.99in}p{0.51in}}
+\hline
+%row no:1
+\multicolumn{1}{|p{1.2in}}{Módulos} & 
+\multicolumn{1}{|p{0.50in}}{Código} & 
+\multicolumn{1}{|p{1.16in}}{Requerimientos} & 
+\multicolumn{1}{|p{1.99in}}{Descripción} & 
+\multicolumn{1}{|p{0.65in}|}{Prioridad} \\
+\hhline{-----}
+%row no:2
+\multicolumn{1}{|p{1.2in}}{\multirow{1}{*}{\begin{tabular}{p{1.2in}} \textbf{MANTENI-MIENTO}\\\end{tabular}}} & 
+\multicolumn{1}{|p{0.4in}}{RF-01} & 
+\multicolumn{1}{|p{1.0in}}{Buscar Libro} & 
+\multicolumn{1}{|p{1.99in}}{El sistema le permitirá al usuario realizar la búsqueda del libro, ya sea por el nombre del libro o alguna característica que el sistema tendrá en su interfaz. } & 
+\multicolumn{1}{|p{0.51in}|}{ALTA \par } \\
+\hhline{~----}
+%row no:3
+\multicolumn{1}{|p{1.2in}}{} & 
+\multicolumn{1}{|p{0.4in}}{RF-02} & 
+\multicolumn{1}{|p{1.0in}}{Reservar Libro} & 
+\multicolumn{1}{|p{1.99in}}{El sistema le permitirá al usuario realizar la reserva de un libro.} & 
+\multicolumn{1}{|p{0.51in}|}{ALTA} \\
+\hhline{-----}
+%row no:4
+\multicolumn{1}{|p{1.2in}}{} & 
+\multicolumn{1}{|p{0.4in}}{RF-03} & 
+\multicolumn{1}{|p{1.0in}}{Cancelar Libro} & 
+\multicolumn{1}{|p{1.99in}}{El sistema le permitirá al usuario cancelar el libro que ya reservo. } & 
+\multicolumn{1}{|p{0.51in}|}{ALTA} \\
+\hhline{-----}
+%row no:5
+\multicolumn{1}{|p{1.2in}}{} & 
+\multicolumn{1}{|p{0.4in}}{RF-04} & 
+\multicolumn{1}{|p{1.0in}}{Agregar Favorito} & 
+\multicolumn{1}{|p{1.99in}}{El sistema le permitirá al usuario poner en su lista los libros favoritos, según criterio de cada usuario.} & 
+\multicolumn{1}{|p{0.51in}|}{ALTA} \\
+\hhline{-----}
+%row no:6
+\multicolumn{1}{|p{1.2in}}{} & 
+\multicolumn{1}{|p{0.4in}}{RF-05} & 
+\multicolumn{1}{|p{1.0in}}{Eliminar Favoritos} & 
+\multicolumn{1}{|p{1.99in}}{El sistema le permitirá al usuario eliminar de los favoritos los libros que no sean de su agrado.} & 
+\multicolumn{1}{|p{0.51in}|}{ALTA} \\
+\hhline{-----}
+%row no:7
+\multicolumn{1}{|p{1.2in}}{} & 
+\multicolumn{1}{|p{0.4in}}{RF-06} & 
+\multicolumn{1}{|p{1.0in}}{Gestionar Libro} & 
+\multicolumn{1}{|p{1.99in}}{El sistema le permitirá al administrador realizar la parte de gestionar (actualizar, guardar, eliminar, etc).} & 
+\multicolumn{1}{|p{0.51in}|}{ALTA} \\
+\hhline{-----}
+%row no:8
+\multicolumn{1}{|p{1.2in}}{} & 
+\multicolumn{1}{|p{0.4in}}{RF-07} & 
+\multicolumn{1}{|p{1.0in}}{Registrar entrega libro} & 
+\multicolumn{1}{|p{1.99in}}{El sistema le permitirá al empleado registrar el préstamo del libro, el cual se le entregara al usuario.} & 
+\multicolumn{1}{|p{0.51in}|}{ALTA} \\
+\hhline{-----}
+%row no:9
+\multicolumn{1}{|p{1.2in}}{} & 
+\multicolumn{1}{|p{0.4in}}{RF-08} & 
+\multicolumn{1}{|p{1.0in}}{Registrar\ devolución libro  } & 
+\multicolumn{1}{|p{1.99in}}{El sistema le permitirá al empleado registrar la devolución del libro del usuario.} & 
+\multicolumn{1}{|p{0.51in}|}{ALTA} \\
+\hhline{-----}
+%row no:10
+\multicolumn{1}{|p{1.2in}}{\Centering \textbf{SEGURIDAD}} & 
+\multicolumn{1}{|p{0.4in}}{RF-24} & 
+\multicolumn{1}{|p{1.0in}}{Autenticación} & 
+\multicolumn{1}{|p{1.99in}}{El usuario, administrador y empleado ingresar al sistema mediante la identificación de.} & 
+\multicolumn{1}{|p{0.51in}|}{ALTA} \\
+\hhline{-----}
+
+\end{tabular}
+ \end{table}
+
+
+%%%%%%%%%%%%%%%%%%%% Table No: 1 ends here %%%%%%%%%%%%%%%%%%%%
+
+\newpage
+
+	\item Caso de uso \par
+
+Este diagrama demuestra todos los requerimientos o casos de usos que existen en el proyecto de Bilioteca.
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 1 starts here %%%%%%%%%%%%%%%%%%%%
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=6in,height=4in]{./media/cDeUso.jpg}
+	\end{Center}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 1 Ends here %%%%%%%%%%%%%%%%%%%%
 
 
 
@@ -315,7 +417,66 @@ Clase Historial:
 	\end{Center}
 \end{figure}
 
+\newpage
+Clase Libror:
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=4.91in,height=3.15in]{./media/8a.png}
+	\end{Center}
+	\begin{Center}
+		\includegraphics[width=4.91in,height=3.15in]{./media/8b.png}
+	\end{Center}
+\end{figure}
 
+\newpage
+Clase Persona:
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=4.91in,height=3.15in]{./media/9a.png}
+	\end{Center}
+	\begin{Center}
+		\includegraphics[width=4.91in,height=3.15in]{./media/9b.png}
+	\end{Center}
+\end{figure}
+
+\newpage
+Clase Prestamo:
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=4.91in,height=4.15in]{./media/10.png}
+	\end{Center}
+\end{figure}
+
+Clase Rankingl:
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=4.91in,height=4.15in]{./media/11.png}
+	\end{Center}
+\end{figure}
+
+\newpage
+Clase Reserva:
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=4.91in,height=4.35in]{./media/12.png}
+	\end{Center}
+\end{figure}
+
+
+Clase Tipo de Usuario:
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=4.91in,height=4.15in]{./media/13.png}
+	\end{Center}
+\end{figure}
+
+\newpage
+Clase Usuariol:
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=4.91in,height=4.35in]{./media/14.png}
+	\end{Center}
+\end{figure}
 
 
 \end{enumerate}
